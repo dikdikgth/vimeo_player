@@ -31,7 +31,7 @@ class _VimeoPlayerState extends State<VimeoPlayer> {
   String _id;
   bool autoPlay = false;
   bool looping = false;
-  bool _overlay = true;
+  bool _overlay = false;
   bool fullScreen = false;
   int position;
 
